@@ -1,0 +1,54 @@
+$main-color: #41BCD0;
+$second-color: #624491;
+$light-second:#F5F6FF;
+$blue-color:#212090;
+$light-blue:#546BCC;
+$red-color: #EB402E;
+$black-color: #2E2E2E;
+$light-gray: #F1F4F5;
+$gray-color:#929292;
+$white-color: #fff;
+$dark-white:#F9FAFF;
+$pink-color:#F4BAC2;
+$gray-text-color:#7D7D7D;
+$text-black-color: rgba(#4D4D4D, 0.71);
+$main-btn-shadow: 0px 9px 14px rgba(0, 192, 240, 0.09);
+$box-shadow: 3px 3px 20px rgba(107, 107, 107, 0.34);
+$border-radius: 8px;
+
+:root {
+  --border-radius-lg: 16px;
+  @include media-breakpoint-down(md) {
+    --border-radius-lg: 12px;
+  }
+  @include media-breakpoint-down(sm) {
+    --border-radius-lg: 10px;
+  }
+}
+.text-black-color{
+  color: $text-black-color;
+}
+.color-gray {
+  color: $black-color !important;
+}
+.color-gray {
+  color: $gray-color !important;
+}
+.color-pink{
+  color: $pink-color;
+}
+.color-light-blue{
+  color: $light-blue;
+}
+.color-gray-text{
+  color: $gray-text-color;
+}
+.color-second{
+  color: $second-color !important;
+}
+.bg-light-gray{
+  background-color: $light-gray;
+}
+.main-color{
+  color: $main-color;
+}

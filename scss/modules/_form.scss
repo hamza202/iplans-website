@@ -1,0 +1,184 @@
+%form-style {
+  border-radius: 60px;
+  background-color: $white-color;
+  padding: 0.75rem 0.9rem;
+  width: 100%;
+  height: auto;
+  border: 1px solid #EBEDF2;
+  transition: border ease-in-out 0.3s;
+
+  &::placeholder {
+    line-height: 2;
+    color: #C9C9C9
+  }
+
+  @include media-breakpoint-down(xxl) {
+    font-size: 15px;
+  }
+
+  &:focus {
+    border-color: $main-color;
+    box-shadow: none;
+    outline: none;
+  }
+
+  &.parsley-error {
+    border-color: $red-color;
+  }
+}
+
+.form {
+  label {
+    color: #686868;
+    margin-bottom: 6px;
+    padding-#{$dir}: 4px;
+    @extend %text-4;
+  }
+
+  .form-select {
+    @extend %form-style;
+  }
+
+  input {
+    @extend %form-style;
+  }
+
+  .bootstrap-select{
+    width: 100% !important;
+    button{
+      font-size: 15px;
+      @extend %form-style;
+      outline: none !important;
+      &:focus{
+        outline: none !important;
+      }
+      &.show{
+        border-color: $main-color;
+      }
+    }
+  }
+
+  textarea {
+    @extend %form-style;
+    resize: none;
+    border-radius: 16px;
+  }
+}
+.bootstrap-select .dropdown-toggle .filter-option{
+  text-align: right;
+
+}
+.input-container {
+  position: relative;
+  margin-bottom: 20px;
+
+  &.icon-input {
+    input {
+      padding-#{$dir}: 40px;
+    }
+
+    .input-icon {
+      position: absolute;
+      top: 50%;
+      left: 11px;
+      transform: translateY(-50%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 20px;
+
+      svg {
+        max-width: 20px;
+        height: auto;
+        max-height: 22px;
+      }
+    }
+
+  }
+}
+
+.parsley-errors-list {
+  list-style: none;
+  padding-#{$dir}: 5px;
+  position: absolute;
+  bottom: -18px;
+  color: #EB402E;
+  font-size: 12px;
+  margin: 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.bootstrap-select{
+  .filled + button{
+    border-color: #EB402E;
+    &.show{
+      border-color: #EB402E !important;
+    }
+    &:focus{
+      border-color: #EB402E !important;
+    }
+  }
+}
+.bootstrap-select>.dropdown-toggle.bs-placeholder{
+  color: #cbcbcb
+}
+.dropdown-item.active, .dropdown-item:active{
+  background-color: $main-color
+}
+.bootstrap-select{
+  .dropdown-menu{
+    padding: 0;
+  }
+}
+input.password-toggle{
+  display: none;
+  &:checked + label {
+    svg path{
+      fill: #006DF0;
+    }
+  }
+}
+.password-container{
+  position: relative;
+  input{
+    padding-#{$opDir}:45px;
+  }
+  .password-toggle-label{
+    display: inline-flex;
+    margin-bottom: 0;
+    cursor: pointer;
+    position: absolute;
+    #{$opDir}: 15px;
+    top:50%;
+    transform: translateY(-50%);
+    svg{
+      path{
+        transition: all ease-in-out 0.4s;
+      }
+    }
+  }
+}
+.form-check-input:focus{
+  box-shadow: none;
+  border-color:$main-color ;
+
+}
+.form-check-input:checked{
+  background-color: $main-color;
+  border-color:$main-color ;
+}
+.check-box{
+  .form-check-input[type=checkbox]{
+    width: auto;
+    padding: 8px;
+  }
+}

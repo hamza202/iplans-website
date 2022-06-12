@@ -1,0 +1,15 @@
+<svg id="Group_14061" data-name="Group 14061" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="203.146" height="280.498" viewBox="0 0 203.146 280.498">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.61" y1="0.595" x2="0.183" y2="0.047" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-opacity="0"/>
+      <stop offset="1"/>
+    </linearGradient>
+  </defs>
+  <path id="Rectangle_12" data-name="Rectangle 12" d="M175.018,0h0a28.128,28.128,0,0,1,28.128,28.128V252.37A28.128,28.128,0,0,1,175.018,280.5H28.128A28.128,28.128,0,0,1,0,252.37V175.018A175.018,175.018,0,0,1,175.018,0Z" fill="#624491"/>
+  <path id="Path_12216" data-name="Path 12216" d="M101.618,155.307A101.618,101.618,0,0,0,203.236,53.689c0-56.122-39.442-53.674-95.564-53.674S0-2.433,0,53.689A101.618,101.618,0,0,0,101.618,155.307Z" transform="translate(188.976 68.016) rotate(92)" opacity="0.15" fill="url(#linear-gradient)"/>
+  <circle id="Ellipse_7" data-name="Ellipse 7" cx="75.789" cy="75.789" r="75.789" transform="translate(164.068 113.935) rotate(89)" opacity="0.05" fill="url(#linear-gradient-2)"/>
+</svg>

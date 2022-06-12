@@ -1,0 +1,136 @@
+.sup-page-title2 {
+  background: rgb(100, 70, 148);
+  background: linear-gradient(31deg, rgba(100, 70, 148, 1) 0%, rgba(100, 70, 148, 1) 45%, rgba(0, 212, 255, 0) 100%);
+}
+
+.plan-preparation-hero {
+  img {
+    transform: scale(-1);
+  }
+}
+
+.service-request-section {
+  img {
+    transform: scaleX(-1);
+  }
+}
+
+.btn-search {
+  border-radius: 0 20px 20px 0;
+}
+
+.list-right-body .accordion.accordion-flush .icon-list-right + span:after, .list-right-body > li > a:after, .list-right-body .accordion-body ul li a:after {
+  right: 0;
+}
+
+.list-right-body > li > a:after {
+  border-radius: 0 3px 3px 0;
+}
+
+.list-right-body > li > a .icon-list-right + div {
+  border-radius: 20px 0 0 20px;
+}
+
+header#header .main-menu li a:before {
+  right: 50%;
+  left: auto;
+}
+
+.new-service-link h4 {
+  right: 50%;
+  left: auto;
+}
+
+.new-service-link img.new-service-img, .home-about-container .about-home-img,
+.main-steps-container .steps-outer-container:first-child .steps-inner-container:before,
+.main-steps-container .steps-outer-container:nth-child(2) .steps-inner-container:before, .need-help-img-container, .white-blue-btn svg {
+  transform: scalex(-1);
+}
+
+.about-content-container {
+  z-index: 3;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 160px;
+  @include media-breakpoint-down(lg) {
+    border-radius: 15px;
+  }
+}
+
+.navigation {
+  button {
+    transform: rotate(180deg);
+  }
+}
+
+.news-input input {
+  padding: 12px 10px 12px 45px;
+}
+
+footer#footer {
+  background: url(../images/footer-ltr-bg.svg) no-repeat;
+  background-position: -10vw -22%;
+  background-size: 720px;
+  @include media-breakpoint-down(xl) {
+    background-position: -20vw -22%;
+  }
+  @include media-breakpoint-up(xxl) {
+    background-position: 4vw -22%;
+  }
+  @include media-breakpoint-down(lg) {
+    background: $white-color;
+  }
+}
+
+#goUp {
+  right: 5%;
+  left: auto;
+}
+
+.search-header .btn-search {
+  border-radius: 0 20px 20px 0;
+}
+
+.search-header .form-control {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.back-link {
+  svg {
+    transform: scalex(-1);
+  }
+}
+
+.list-right-body .accordion-body ul li a::after, .list-right-body .accordion.accordion-flush .icon-list-right + span::after, .list-right-body > li > a::after {
+  right: 0;
+  left: auto;
+}
+.back-btn{
+  left: 10px;
+  right: auto;
+  svg{
+    transform: scalex(-1);
+  }
+}
+.bootstrap-select .dropdown-toggle .filter-option{
+  text-align: left;
+}
+.team-members{
+  display: flex;
+  align-items: center;
+}
+.next-btn svg{
+  transform: scalex(-1) translateY(-50%);
+}
+.help-box{
+  svg{
+    transform: scalex(-1);
+  }
+}
+.team-link-modal{
+  svg{
+    transform: scalex(-1);
+  }
+}

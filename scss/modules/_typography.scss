@@ -1,0 +1,148 @@
+@font-face {
+  font-family: 'sf-font';
+  src: local('sf-Light'), url("#{$sourcefile}fonts/SF-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'sf-font';
+  src: local('sf-Regular'), url("#{$sourcefile}fonts/SF-Book.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'sf-font';
+  src: local('sf-semi-Bold'), url("#{$sourcefile}fonts/SF-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'sf-font';
+  src: local('sf-bold'), url("#{$sourcefile}fonts/SF-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+%text-1{
+  font-size: 20px;
+  @include media-breakpoint-up(xxl){
+    font-size: 23px;
+  }
+  @include media-breakpoint-down(xl){
+    font-size: 18px;
+  }
+  @include media-breakpoint-down(sm){
+    font-size: 16px;
+  }
+}
+%text-2{
+  font-size: 18px;
+  @include media-breakpoint-up(xxl){
+    font-size: 21px;
+  }
+  @include media-breakpoint-down(xl){
+    font-size: 17px;
+  }
+  @include media-breakpoint-down(sm){
+    font-size: 15px;
+  }
+}
+%text-3{
+  font-size: 16px;
+  @include media-breakpoint-up(xxl){
+    font-size: 17px;
+  }
+  @include media-breakpoint-down(sm){
+    font-size: 14px;
+  }
+}
+%text-4{
+  font-size: 14px;
+  @include media-breakpoint-up(xxl){
+    font-size: 15px;
+  }
+  @include media-breakpoint-down(sm){
+    font-size: 13px;
+  }
+}
+.text-1{
+  @extend %text-1
+}
+.text-2{
+  @extend %text-2
+}
+.text-3{
+  @extend %text-3
+}
+.text-4{
+  @extend %text-4
+}
+
+%title-1{
+  font-size: 39px;
+  @include media-breakpoint-up(xxl){
+    font-size: 42px;
+  }
+  @include media-breakpoint-down(xl){
+    font-size: 32px;
+  }
+  @include media-breakpoint-down(sm){
+    font-size: 23px;
+  }
+}
+
+%title-2{
+  font-size: 30px;
+  @include media-breakpoint-up(xxl){
+    font-size: 34px;
+  }
+  @include media-breakpoint-down(xl){
+    font-size: 27px;
+  }
+  @include media-breakpoint-down(sm){
+    font-size: 19px;
+  }
+}
+%title-3{
+  font-size: 26px;
+  @include media-breakpoint-up(xxl){
+    font-size: 30px;
+  }
+  @include media-breakpoint-down(xl){
+    font-size: 25px;
+  }
+  @include media-breakpoint-down(sm){
+    font-size: 18px;
+  }
+}
+%title-4{
+  font-size: 22px;
+  @include media-breakpoint-up(xxl){
+    font-size: 25px;
+  }
+  @include media-breakpoint-down(xl){
+    font-size: 20px;
+  }
+  @include media-breakpoint-down(sm){
+    font-size: 16px;
+  }
+}
+.title-1{
+  @extend %title-1
+}
+.title-2{
+  @extend %title-2
+}
+.title-3{
+  @extend %title-3
+}
+.title-4{
+  @extend %title-4
+}

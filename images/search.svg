@@ -1,0 +1,16 @@
+<svg id="search" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15.341" height="15.341" viewBox="0 0 15.341 15.341">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Mask" d="M14.5,15.341a.838.838,0,0,1-.6-.247l-3.018-3.018a6.684,6.684,0,0,1-4.137,1.417,6.746,6.746,0,1,1,6.746-6.746,6.684,6.684,0,0,1-1.417,4.137L15.094,13.9a.843.843,0,0,1-.6,1.439ZM6.746,1.686a5.06,5.06,0,1,0,5.06,5.06A5.066,5.066,0,0,0,6.746,1.686Z" transform="translate(0)" fill="#c9c9c9"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect width="20.239" height="20.239" fill="none"/>
+    </clipPath>
+  </defs>
+  <path id="Mask-2" data-name="Mask" d="M14.5,15.341a.838.838,0,0,1-.6-.247l-3.018-3.018a6.684,6.684,0,0,1-4.137,1.417,6.746,6.746,0,1,1,6.746-6.746,6.684,6.684,0,0,1-1.417,4.137L15.094,13.9a.843.843,0,0,1-.6,1.439ZM6.746,1.686a5.06,5.06,0,1,0,5.06,5.06A5.066,5.066,0,0,0,6.746,1.686Z" transform="translate(0 0)" fill="#c9c9c9"/>
+  <g id="Group_5" data-name="Group 5" transform="translate(0 0)" clip-path="url(#clip-path)">
+    <g id="color_black" data-name="color/black" transform="translate(-2.53 -2.53)" clip-path="url(#clip-path-2)">
+      <rect id="Change_Fill_Color" data-name="Change Fill Color" width="20.239" height="20.239" fill="#c9c9c9"/>
+    </g>
+  </g>
+</svg>

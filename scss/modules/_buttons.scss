@@ -1,0 +1,241 @@
+%my-btn {
+  display: inline-flex;
+  align-items: center;
+  background-color: $main-color;
+  border: 1px solid $main-color;
+  color: $white-color;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 10px 50px;
+  transition: all ease-in-out 0.3s;
+  border-radius: 80px;
+  svg{
+    path{
+      transition: all ease-in-out 0.3s;
+    }
+  }
+  @include media-breakpoint-down(sm) {
+    padding: 9px 30px;
+    font-size: 14px;
+  }
+
+  &:hover {
+    background-color: $dark-white;
+    color: $main-color;
+  }
+}
+
+.main-btn {
+  @extend %my-btn;
+  &:hover{
+    svg{
+      path{
+        fill: $main-color;
+      }
+    }
+  }
+  &.download-btn{
+    &:hover{
+      svg{
+        path{
+          stroke: $main-color;
+        }
+      }
+    }
+  }
+}
+.main-btn-outline {
+  @extend %my-btn;
+  background-color: transparent;
+  color: $main-color;
+  &:hover{
+    background-color: $main-color;
+    color: $white-color;
+    svg{
+      path{
+        fill: $white-color;
+      }
+    }
+  }
+}
+.second-btn {
+  @extend %my-btn;
+  background-color: $second-color;
+  border: 1px solid $second-color;
+  path{
+    transition:  all ease-in-out 0.3s
+  }
+  &:hover {
+    background-color: $dark-white;
+    color: $second-color;
+    svg{
+      path{
+        stroke: $second-color;
+      }
+    }
+  }
+  &.icon2-btn{
+    &:hover{
+      svg{
+        path{
+          fill:$second-color;
+          stroke: none;
+        }
+      }
+    }
+  }
+}
+
+.light-btn {
+  @extend %my-btn;
+  background-color: $dark-white;
+  color: $main-color;
+  border-color: $dark-white;
+
+  &:hover {
+    background-color: $main-color;
+    border-color: $main-color;
+    color: $white-color;
+  }
+}
+
+.light-blue-btn {
+  @extend %my-btn;
+  background-color: $light-gray;
+  color: $blue-color;
+  border-color: $light-gray;
+
+  &:hover {
+    background-color: $blue-color;
+    border-color: $blue-color;
+    color: $white-color;
+  }
+}
+
+.white-blue-btn {
+  @extend %my-btn;
+  background-color: $white-color;
+  color: #546BCC;
+  border-color: $white-color;
+
+  svg {
+    path, rect {
+      transition: all ease-in-out 0.3s;
+    }
+  }
+
+  &:hover {
+    background-color: #546BCC;
+    border-color: #546BCC;
+    color: $white-color;
+
+    svg {
+      path {
+        stroke: $white-color;
+      }
+
+      rect {
+        fill: $white-color;
+      }
+    }
+  }
+}
+.light-purple-btn {
+  @extend %my-btn;
+  background-color: $dark-white;
+  color: #546BCC;
+  border-color: $dark-white;
+
+  svg {
+    path, rect {
+      transition: all ease-in-out 0.3s;
+    }
+  }
+
+  &:hover {
+    background-color: #546BCC;
+    border-color: #546BCC;
+    color: $white-color;
+
+    svg {
+      path {
+        stroke: $white-color;
+      }
+
+      rect {
+        fill: $white-color;
+      }
+    }
+  }
+}
+
+.icon-btn {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+  svg {
+    height: 25px;
+    width: auto;
+    max-width: 23px;
+    @include media-breakpoint-down(sm) {
+      height: 20px;
+      max-width: 20px;
+    }
+
+    path {
+      transition: all ease-in-out 0.3s;
+    }
+  }
+}
+.check-button{
+  svg{
+    max-width: 19px;
+  }
+}
+
+.btn-close {
+  transition: all ease-in-out 0.3s;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='156.281' height='156.282' viewBox='0 0 156.281 156.282'%3E%3Cpath id='Path_17183' data-name='Path 17183' d='M94.719,174.143l50.09-50.09,10.33-10.33a3.909,3.909,0,0,0,0-5.524L144.086,97.148a3.909,3.909,0,0,0-5.524,0L78.143,157.567,17.724,97.143a3.909,3.909,0,0,0-5.524,0L1.143,108.2a3.909,3.909,0,0,0,0,5.524l60.424,60.424L1.143,234.563a3.909,3.909,0,0,0,0,5.524L12.2,251.139a3.909,3.909,0,0,0,5.524,0l60.424-60.419,50.09,50.09,10.33,10.33a3.909,3.909,0,0,0,5.524,0l11.052-11.052a3.909,3.909,0,0,0,0-5.524Z' transform='translate(0 -96)' fill='%23fff'/%3E%3C/svg%3E%0A");
+}
+
+.shadow-btn {
+  filter: drop-shadow(0px 9px 14px rgba(0, 192, 240, 0.09));
+
+  &:hover {
+    filter: drop-shadow(0);
+  }
+}
+.light-second-btn{
+  @extend %my-btn;
+  background-color: rgba($second-color, 0.09);
+  color: $second-color;
+  border-color:  rgba($second-color, 0.09);
+  &:hover {
+    color: $second-color;
+  }
+}
+.add-btn{
+  width: 42px;
+  height: 42px;
+  padding: 0;
+  justify-content: center;
+  svg{
+    width: 1em;
+    height: auto;
+    path{
+      transition: all ease-in-out 0.3s;
+    }
+  }
+  &:hover{
+    svg path{
+      fill: $main-color;
+    }
+  }
+  @include media-breakpoint-down(sm){
+    width: 38px;
+    height: 38px;
+  }
+}

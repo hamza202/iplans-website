@@ -1,0 +1,354 @@
+
+#icon-more {
+  cursor: pointer;
+  position: absolute;
+  background: #ffffff;
+  left: -50px;
+  top: 100px;
+  padding: 5px 5px 0px;
+  border-radius: 5px 0 0 5px;
+  -webkit-box-shadow: 0 0 15px #ccc;
+  box-shadow: 0 0 15px #ccc;
+  display: none;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out
+}
+
+#icon-more .img-user-right-icon img {
+  width: 40px;
+  height: 40px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: top;
+  object-position: top;
+  border-radius: 50%
+}
+
+#icon-more .menu-icon svg {
+  width: 20px;
+  margin: auto;
+  display: block;
+  margin-top: 5px;
+  fill: #41BCD0
+}
+
+#icon-more:hover {
+  background: #546BCC
+}
+
+#icon-more:hover svg, #icon-more:hover g, #icon-more:hover path {
+  fill: #fff !important
+}
+
+.user-menu-right {
+  text-align: center
+}
+
+.user-menu-right .img-user-right {
+  margin-bottom: 10px
+}
+
+.user-menu-right .img-user-right img {
+  width: 80px;
+  height: 80px;
+  -o-object-position: top;
+  object-position: top;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #FBFBFB;
+}
+
+.list-right-body {
+  list-style: none;
+  padding: 0;
+  margin: 0
+}
+
+.list-right-body .col-12 {
+  -webkit-padding-end: 0;
+  -moz-padding-end: 0;
+  padding-inline-end: 0
+}
+
+.list-right-body .accordion.accordion-flush .icon-list-right {
+  width: 20px;
+  text-align: center
+}
+
+.list-right-body .accordion.accordion-flush .icon-list-right + span {
+  width: 90%;
+  background: #fff;
+  padding: 9px;
+  border-radius: 20px 0 0 20px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  position: relative
+}
+
+.list-right-body .accordion.accordion-flush .icon-list-right + span:after {
+  content: '';
+  width: 4px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  background: transparent;
+  border-radius: 0 3px 3px 0;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  top: 0
+}
+
+.list-right-body .accordion.accordion-flush .icon-list-right + span:hover {
+  background: #FCFCFC
+}
+
+.list-right-body .accordion.accordion-flush .icon-list-right + span:hover:after {
+  background-color: #41BCD0
+}
+
+.list-right-body .accordion-header:hover, .list-right-body .accordion-header.active {
+  position: relative
+}
+
+.list-right-body .accordion-header:hover:after, .list-right-body .accordion-header.active:after {
+  content: '';
+  width: 4px;
+  height: 100%;
+  position: absolute;
+  left: 0px;
+  background: transparent;
+  border-radius: 0 3px 3px 0;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  top: 0;
+  background-color: #41BCD0
+}
+
+.list-right-body .accordion-header:hover .icon-list-right + span, .list-right-body .accordion-header.active .icon-list-right + span {
+  background: #FCFCFC
+}
+
+.list-right-body .accordion-body {
+  padding-bottom: 0;
+  margin-left: -28px;
+  background-color: #FCFCFF;
+  padding: 0
+}
+
+.list-right-body .accordion-body ul {
+  padding-top: 10px;
+  padding-bottom: 10px
+}
+
+.list-right-body .accordion-body ul li a {
+  padding-bottom: 8px;
+  padding-top: 8px;
+  padding-left: 15px;
+  margin-left: 50px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  position: relative
+}
+
+.list-right-body .accordion-body ul li a:after {
+  content: '';
+  width: 4px;
+  top: 0;
+  height: 100%;
+  position: absolute;
+  left: 0px;
+  background: transparent;
+  border-radius: 0 3px 3px 0;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out
+}
+
+.list-right-body .accordion-body ul li a:hover, .list-right-body .accordion-body ul li a.active {
+  background-color: #fff;
+  border-radius: 20px 0 0 20px
+}
+
+.list-right-body .accordion-body ul li a:hover:after, .list-right-body .accordion-body ul li a.active:after {
+  background: #41BCD0
+}
+
+.list-right-body > li > a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  color: #7D7D7D;
+  font-size: 14px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  position: relative;
+  padding: 0;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center
+}
+
+.list-right-body > li > a:after {
+  content: '';
+  width: 4px;
+  height: 100%;
+  position: absolute;
+  left: 0px;
+  background: transparent;
+  border-radius: 3px 0 0 3px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out
+}
+
+.list-right-body > li > a .icon-list-right {
+  width: 20px;
+  text-align: center
+}
+
+.list-right-body > li > a .icon-list-right + div {
+  width: 90%;
+  background: #fff;
+  padding: 9px;
+  border-radius: 0 20px 20px 0;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out
+}
+
+.list-right-body > li > a path {
+  fill: #929292;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out
+}
+
+.list-right-body > li > a:hover, .list-right-body > li > a.active {
+  color: #41BCD0
+}
+
+.list-right-body > li > a:hover .icon-list-right + div, .list-right-body > li > a.active .icon-list-right + div {
+  background: #FCFCFC
+}
+
+.list-right-body > li > a:hover svg path, .list-right-body > li > a.active svg path {
+  fill: #41BCD0
+}
+
+.list-right-body > li > a:hover:after, .list-right-body > li > a.active:after {
+  background: #41BCD0
+}
+
+.list-right-body > li .accordion-item a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex
+}
+
+.list-right-body .accordion-button:hover {
+  z-index: 3;
+  border-color: transparent;
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  background: transparent;
+  color: #41BCD0
+}
+
+.list-right-body .accordion-button:hover svg path {
+  fill: #41BCD0
+}
+
+.list-right-body .accordion-button:focus {
+  border-color: transparent;
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none
+}
+
+.list-right-body .accordion-button:not(.collapsed) {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  background: transparent;
+  color: #41BCD0
+}
+
+.list-right-body .accordion-button:not(.collapsed) svg {
+  stroke: #41BCD0
+}
+
+.list-right-body .accordion-button:not(.collapsed) svg g {
+  stroke: #41BCD0
+}
+
+.list-right-body a {
+  text-decoration: none
+}
+
+.card-list-left .accordion-button::after {
+  width: 1rem;
+  height: 1rem;
+  background-size: 1rem;
+  position: absolute;
+  right: 10px
+}
+
+.w-100px {
+  width: 100px
+}
+
+.list-accordion {
+  list-style: none;
+  padding: 0;
+  margin: 0
+}
+
+.list-accordion li {
+  margin-bottom: 5px
+}
+
+.list-accordion li a {
+  padding: 5px 0;
+  display: block;
+  color: #7D7D7D;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out
+}
+
+.list-accordion li a:hover {
+  color: #41BCD0
+}
+
+@media (max-width: 992px) {
+  .card-list-left {
+    position: fixed;
+    z-index: 99999;
+    right: -300px;
+    width: 300px;
+    top: 25px;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out
+  }
+
+  .card-list-left.active {
+    right: 0
+  }
+
+  .card-list-left .accordion-button::after {
+    width: 1rem;
+    height: 1rem;
+    background-size: 1rem;
+    position: absolute;
+    right: 10px
+  }
+}
+.card {
+  border-radius: 10px;
+  -webkit-box-shadow: #4c59fd0d 0 10px 20px;
+  box-shadow: #4c59fd0d 0 10px 20px;
+  border: none;
+}
